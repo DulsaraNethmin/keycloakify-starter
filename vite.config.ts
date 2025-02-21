@@ -7,7 +7,9 @@ export default defineConfig({
     plugins: [
         react(),
         keycloakify({
-            accountThemeImplementation: "none"
-        })
+            accountThemeImplementation: "none",
+            themeName: ["app-v1", "app-v2"],
+        }),
+
     ]
 });

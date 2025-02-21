@@ -1,0 +1,72 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Hanunoo&display=swap');
+
+body.kcBodyClass {
+    /* background: url(./assets/cool-background.png) no-repeat center center fixed; */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .kcHeaderWrapperClass {
+    color: transparent;
+    height: 100px !important;
+    padding: 0px !important;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: visible;
+    background-image: url(./assets/logo4.png);
+    background-size: 300px 300px;
+    margin-top: 20px;
+  }
+
+  .card-pf {
+    border-top: none;
+    border-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.kcInfoAreaWrapperClass{
+    border-radius: 10px;
+}
+
+.kcInputClass{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.kcFormPasswordVisibilityButtonClass{
+    
+    /* background-color: transparent; */
+    /* color: #f0f0f0; */
+    /* background-color: beige; */
+    border-color: transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+.kcButtonClass {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
